@@ -1,14 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import HomeCarousel from '../components/HomeCarousel';
+import About from '../components/About';
 
 const Landing = () => {
 
   return (
     <div>
-      <h1> This is the Landing page</h1>
-      <Link to='/'>
-        <img width={1200} src='/images/DummyHouse.jpg' alt='logo'  />
-      </Link>
+      <HomeCarousel />
+      <About/>
     </div>
   );
 };
