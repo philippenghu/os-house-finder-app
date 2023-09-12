@@ -1,12 +1,10 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 
-
-
 function HomeCarousel() {
     return (
-        <div className='container-xl d-flex justify-content-center align-items-center' >
-            <div style={{ display: 'block', width: 1000, padding: 30 }}>
+        <div className='container-xl d-flex justify-content-center align-items-center py-2' >
+            <div style={{ display: 'block', width: 1100, height:500, padding: 30 }}>
                 <Carousel>
                     <Carousel.Item interval={10000}>
                         <img
@@ -16,7 +14,6 @@ function HomeCarousel() {
                         />
                         <Carousel.Caption>
                             <h3>A website helps you make a wise decision</h3>
-                            <p>Sample Text for Image One</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item interval={500}>
@@ -27,7 +24,6 @@ function HomeCarousel() {
                         />
                         <Carousel.Caption>
                             <h3>A website helps you find a dream house</h3>
-                            <p>Sample Text for Image Two</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>

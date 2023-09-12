@@ -7,28 +7,28 @@ function Navigation() {
       <div className='container-fluid'>
         <div className='d-flex align-items-center justify-content-between w-100'>
           <div className='align-items-center pt-5 px-5'>
-            <a className='navbar-brand fw-bold fs-5' href='#'>
+            <Link className='navbar-brand fw-bold fs-5' to='/'>
               <img width={130} src='/images/HouseLogoGrey.svg' alt='logo' />
               <div>  House Finder</div>
-            </a>
+            </Link>
           </div>
 
           <div className='d-flex align-items-center px-5'>
             <ul className='navbar-nav me-auto mb-2 mb-lg-0'>
               <li className='nav-item me-3'>
-                <a className='nav-link fw-bold fs-6 btn btn-secondary' href='#'>
+                <Link className='nav-link fw-bold fs-6 btn btn-secondary' to='/How'>
                   How Scoring SYSTEM works
-                </a>
+                </Link >
               </li>
               <li className='nav-item me-3'>
-                <a className='nav-link fw-bold fs-6 btn btn-secondary' href='#'>
+              <Link className='nav-link fw-bold fs-6 btn btn-secondary'  to='/FAQ'>
                   FAQ
-                </a>
+                  </Link >
               </li>
               <li className='nav-item me-5'>
-                <a className='nav-link fw-bold fs-6 btn btn-secondary' href='#'>
+              <Link className='nav-link fw-bold fs-6 btn btn-secondary'  to='/login'>
                   Login/Signup
-                </a>
+                  </Link >
               </li>
             </ul>
 
